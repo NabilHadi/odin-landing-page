@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: roboto, sans-serif;
+	margin: 0;
+	color: #f9faf8;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
+
+/* Hero section */
+
+.hero {
+	background-color: #1f2937;
+	padding-bottom: 160px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 0px;
+}
+
+.header-links {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.header-logo {
+	color: #f9faf8;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.hero-content {
+	display: flex;
+	margin-top: 100px;
+	gap: 50px;
+}
+
+.hero-main-text {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.hero-secondary-text {
+	font-size: 18px;
+	color: #e5e7eb;
+	margin-bottom: 16px;
+}
+
+.hero-btn button {
+	padding: 8px 32px;
+	background-color: #3882f6;
+	border: none;
+	border-radius: 10px;
+	color: #f9faf8;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.hero-img img {
+	width: 500px;
+	height: 230px;
+	object-fit: cover;
+}
+
+/* Information section */
+.information {
+	padding: 32px;
+	padding-bottom: 80px;
+}
+
+.information-header {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 20px;
+}
+
+.information-boxes {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 48px;
+}
+
+.box-container {
+	display: flex;
+	flex-direction: column;
+	width: 160px;
+}
+
+.box {
+	border: 5px solid #3882f6;
+	height: 160px;
+	width: 160px;
+	border-radius: 16px;
+}
+
+.box-text {
+	margin-top: 8px;
+	text-align: center;
+	color: #1f2937cb;
+}
+
+/* Testimony */
+.testimony {
+	padding: 80px 16px;
+	color: #1f2937;
+	background-color: #e5e7eb;
+}
+
+.testimony p {
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+	width: 100%;
+	margin: 0;
+}
+
+.testimony figcaption {
+	text-align: end;
+	margin-right: 100px;
+	font-size: 22px;
+	font-weight: 500;
+}
+
+/* Sign-up section */
+.sign-up {
+	padding: 80px 0;
+}
+
+.sign-up-container {
+	background-color: #3882f6;
+	color: #e5e7eb;
+	padding: 40px 80px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+
+.sign-up-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.sign-up-header {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.sign-up-msg {
+	margin-top: 4px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.sign-up-btn {
+	border: 3px #e5e7eb solid;
+	border-radius: 10px;
+	background-color: #3882f6;
+	color: #e5e7eb;
+	padding: 4px 40px;
+	font-size: 16px;
+}
+
+/* Footer */
+footer {
+	background-color: #1f2937;
+	text-align: center;
+	padding: 40px 0;
+	font-size: 18px;
+}
